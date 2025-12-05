@@ -1,3 +1,8 @@
+
+.container{
+  display:flex;
+}
+
 nav{
   padding:5px
 }
@@ -9,9 +14,20 @@ nav a{
   text-align:center;
 }
 
+.center{
+  align-items:center;
+  justify-content:center;
+}
 
 body{
-  font-family:Arial;
+  font-family:serif;
+}
+
+#main{
+  justify-content:left;
+  align-items:left;
+   flex:3;
+   flex-direction: row;
 }
 
 a{
@@ -22,9 +38,14 @@ nav a:hover{
   border-bottom:2px solid black;
 }
 
-.banner{
-  background-color:rgb(236, 108, 157);
+#banner{
+  background-color:rgb(218, 120, 157);
   color:black;
+  height:58px
+}
+
+h1{
+  font-size:50px
 }
 
 .main{
@@ -32,4 +53,10 @@ nav a:hover{
   color:blue;
 }
 
-
+#footer p{
+   flex:1;
+   text-align:center;
+   color:rgb(218, 220, 243);
+   background-color:rgb(122, 79, 150);
+   height:30px
+}
