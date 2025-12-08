@@ -3,6 +3,12 @@
   display:flex;
 }
 
+#one, #two, #three{
+   justify-content:center;
+   align-items:center;
+   flex:5;
+}
+
 nav{
   padding:5px
 }
@@ -23,13 +29,6 @@ body{
   font-family:serif;
 }
 
-#main{
-  justify-content:left;
-  align-items:left;
-   flex:3;
-   flex-direction: row;
-}
-
 a{
   text-decoration:none;
 }
@@ -39,18 +38,28 @@ nav a:hover{
 }
 
 #banner{
-  background-color:rgb(218, 120, 157);
-  color:black;
-  height:58px
+  align-items:center;
+  justify-content:center;
+  background-image: url("banner.jpg");
+  color:white;
+  height:545px;
+}
+
+#banner img:hover{
+  filter:blur(2px);
 }
 
 h1{
-  font-size:50px
+  font-size:80px;
 }
 
-.main{
-  font-size:24px;
-  color:blue;
+#info img:hover{
+    transform:rotate(5deg);
+}
+
+#info img{
+    border-radius:6px;
+    height:200px;
 }
 
 #footer p{
