@@ -3,12 +3,6 @@
   display:flex;
 }
 
-#one, #two, #three{
-   justify-content:center;
-   align-items:center;
-   flex:5;
-}
-
 nav{
   padding:5px
 }
@@ -26,7 +20,7 @@ nav a{
 }
 
 body{
-  font-family:serif;
+  font-family:"Lucida Sans";
 }
 
 a{
@@ -34,7 +28,10 @@ a{
 }
 
 nav a:hover{
-  border-bottom:2px solid black;
+  border-bottom:2px solid white;
+  background-color:rgb(135, 92, 190);
+    color:white;
+    transition:0.5s;
 }
 
 #banner{
@@ -55,7 +52,7 @@ h1{
 }
 
 #info img:hover{
-    transform:rotate(5deg);
+    transform:rotate(6deg);
 }
 
 #info img{
@@ -67,10 +64,21 @@ h1{
   flex-direction: column;
 }
 
+#info p{
+  font-size:19px;
+}
+
+#info p:hover{
+  font-size:23px;
+  background-color:rgb(135, 92, 190);
+  color:white;
+  transition:0.5s;
+}
+
 #footer p{
    flex:1;
    text-align:center;
    color:rgb(218, 220, 243);
    background-color:rgb(122, 79, 150);
-   height:30px
+   height:37px
 }
