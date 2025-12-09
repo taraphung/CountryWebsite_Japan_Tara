@@ -43,10 +43,11 @@ nav a:hover{
   background-image: url("banner.jpg");
   color:white;
   height:545px;
+  transition: filter 0.3s;
 }
 
-#banner img:hover{
-  filter:blur(2px);
+#banner:hover {
+  filter:blur(3px);
 }
 
 h1{
@@ -60,6 +61,10 @@ h1{
 #info img{
     border-radius:6px;
     height:200px;
+}
+
+#info{
+  flex-direction: column;
 }
 
 #footer p{
