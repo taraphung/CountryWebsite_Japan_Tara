@@ -151,6 +151,18 @@ h1{
   text-align:right;
 }
 
+#sidebar{
+   flex-direction:column;
+   flex:1;
+}
+
+
+#main2, #sample, #sample2{
+   justify-content:center;
+   align-items:center;
+   flex:3;
+}
+
 
 #footer p{
    flex:1;
@@ -165,5 +177,14 @@ h1{
    text-align:center;
    color:rgb(152, 246, 207);
    background-color:rgb(20, 144, 182);
+   height:37px
+}
+
+
+#footer3 p{
+   flex:1;
+   text-align:center;
+   color:rgb(232, 238, 206);
+   background-color:rgb(28, 90, 109);
    height:37px
 }
