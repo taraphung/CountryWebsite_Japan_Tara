@@ -3,6 +3,7 @@
   display:flex;
 }
 
+
 nav{
   padding:5px
 }
@@ -48,12 +49,40 @@ nav a:hover{
   align-items:center;
   justify-content:center;
   background-image: url("banner2.jpg");
-  color:white;
+  color:rgb(218, 248, 220);
   height:545px;
+  transition:1.0s;
   text-decoration:underline;
+  font-family:"Segoe UI";
 }
 
-#banner:hover {
+#banner2:hover{
+  background-image: url("banner22.webp");
+  background-size:cover;
+  background-position:center;
+}
+
+#banner3{
+  align-items:center;
+  justify-content:center;
+  background-image: url("banner3.avif");
+  background-size:cover;
+  background-position:center;
+  height:545px;
+}
+
+#banner3 h1{
+  background-color:white;
+  color:black;
+  padding:10px;
+  border-radius:8px;
+}
+
+#banner3:hover{
+  background-size:150%;
+}
+
+#banner:hover{
   filter:blur(1.5px);
 }
 
@@ -83,6 +112,7 @@ h1{
   background-color:rgb(177, 71, 115);
   color:white;
   transition:0.5s;
+  padding:15px;
 }
 
 #two p:hover{
@@ -146,7 +176,6 @@ h1{
     filter:blur(0.9px);
 }
 
-
 #art{
   text-align:right;
 }
@@ -156,13 +185,22 @@ h1{
    flex:1;
 }
 
-
-#main2, #sample, #sample2{
-   justify-content:center;
-   align-items:center;
-   flex:3;
+#sidebar:hover{
+  transform: scale(0.9);
+  transition:1.0s;
 }
 
+#main2, #sample, #sample2{
+   flex:3;
+   font-size:16px;
+   font-family:"Franklin Gothic Medium";
+}
+
+ul:hover{
+  color:rgb(19, 79, 161);
+  font-size:17.5px;
+  font-family:Cambria;
+}
 
 #footer p{
    flex:1;
