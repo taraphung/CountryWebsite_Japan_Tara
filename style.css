@@ -31,9 +31,9 @@ a{
 
 nav a:hover{
   border-bottom:2px solid white;
-  background-color:rgb(89, 51, 138);
-    color:white;
-    transition:0.5s;
+  background-color:rgb(240, 235, 195);
+    color:rgb(66, 33, 82);
+    transition:1.0s;
 }
 
 #banner{
@@ -48,15 +48,24 @@ nav a:hover{
 }
 
 #banner:hover{
-  filter:blur(1.0px);
+  filter:blur(0.8px);
+}
+
+#banner h1{
+  background-color:rgb(39, 12, 43);
+  color:rgb(247, 203, 203);
+  padding:10px;
+  border-radius:8px;
 }
 
 #banner2{
   align-items:center;
   justify-content:center;
-  background-image: url("banner2.jpg");
-  color:rgb(218, 248, 220);
+  background-image: url("banner2.webp");
+  color:rgb(158, 184, 160);
   height:545px;
+  background-size:cover;
+  background-position:center;
   transition:1.0s;
   text-decoration:underline;
   font-family:"Segoe UI";
@@ -66,6 +75,13 @@ nav a:hover{
   background-image: url("banner22.webp");
   background-size:cover;
   background-position:center;
+}
+
+#banner2 h1{
+  background-color:rgb(55, 87, 62);
+  color:rgb(186, 241, 208);
+  padding:10px;
+  border-radius:8px;
 }
 
 #banner3{
@@ -109,6 +125,7 @@ h1{
 #info img{
     border-radius:6px;
     height:200px;
+    width:400px;
 }
 
 #info{
@@ -209,20 +226,20 @@ h1{
 
 #main2, #sample, #sample2{
    flex:3;
-   font-size:16px;
+   font-size:21px;
    font-family:"Franklin Gothic Medium";
 }
 
 ul:hover{
   color:rgb(19, 79, 161);
-  font-size:17.5px;
+  font-size:23px;
   font-family:Cambria;
 }
 
 #food img{
   height:250px;
   width:400px;
-  padding:8px;
+  padding:6px;
 }
 
 #food{
