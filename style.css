@@ -40,9 +40,15 @@ nav a:hover{
   align-items:center;
   justify-content:center;
   background-image: url("banner.jpg");
+  background-size:cover;
+  background-position:center;
   color:white;
   height:545px;
   transition:filter 0.3s;
+}
+
+#banner:hover{
+  filter:blur(1.0px);
 }
 
 #banner2{
@@ -72,18 +78,24 @@ nav a:hover{
 }
 
 #banner3 h1{
-  background-color:white;
-  color:black;
+  background-color:rgb(41, 72, 107);
+  color:rgb(205, 227, 252);
   padding:10px;
   border-radius:8px;
 }
 
 #banner3:hover{
-  background-size:150%;
+  background-size:180%;
 }
 
-#banner:hover{
-  filter:blur(1.5px);
+#banner4{
+  align-items:center;
+  justify-content:center;
+  background-image: url("banner4.jpg");
+  background-size:cover;
+  background-position:center;
+  color:white;
+  height:545px;
 }
 
 h1{
@@ -112,7 +124,7 @@ h1{
   background-color:rgb(177, 71, 115);
   color:white;
   transition:0.5s;
-  padding:15px;
+  padding:2px;
 }
 
 #two p:hover{
@@ -185,8 +197,13 @@ h1{
    flex:1;
 }
 
+#sidebar img{
+  height:200px;
+  width:260px;
+}
+
 #sidebar:hover{
-  transform: scale(0.9);
+  scale: 0.9;
   transition:1.0s;
 }
 
@@ -200,6 +217,23 @@ ul:hover{
   color:rgb(19, 79, 161);
   font-size:17.5px;
   font-family:Cambria;
+}
+
+#food img{
+  height:250px;
+  width:400px;
+  padding:8px;
+}
+
+#food{
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#food p{
+  text-align:center;
+  align-items:center;
 }
 
 #footer p{
@@ -217,7 +251,6 @@ ul:hover{
    background-color:rgb(20, 144, 182);
    height:37px
 }
-
 
 #footer3 p{
    flex:1;
