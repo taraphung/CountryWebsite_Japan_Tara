@@ -22,7 +22,7 @@ nav a{
 }
 
 body{
-  font-family:"Lucida Sans";
+  font-family:Georgia;
 }
 
 a{
@@ -32,8 +32,8 @@ a{
 nav a:hover{
   border-bottom:2px solid white;
   background-color:rgb(78, 32, 74);
-    color:rgb(231, 223, 193);
-    transition:0.5s;
+  color:rgb(231, 223, 193);
+  transition:0.5s;
 }
 
 #banner{
@@ -68,7 +68,7 @@ nav a:hover{
   background-position:center;
   transition:1.0s;
   text-decoration:underline;
-  font-family:"Segoe UI";
+  font-family:Haettenschweiler;
 }
 
 #banner2:hover{
@@ -175,21 +175,21 @@ h1{
 }
 
 #tea p:hover{
-  font-size:21px;
+  font-size:23px;
   background-color:rgb(21, 86, 43);
   color:rgb(174, 253, 223);
   transition:1.2s;
 }
 
 #art p:hover{
-  font-size:21px;
+  font-size:23px;
   background-color:rgb(40, 51, 106);
   color:rgb(196, 224, 241);
   transition:1.2s;
 }
 
 #paper p:hover{
-  font-size:21px;
+  font-size:23px;
   background-color:rgb(85, 38, 110);
   color:rgb(248, 242, 180);
   transition:1.2s;
@@ -215,21 +215,31 @@ h1{
   text-align:right;
 }
 
-#sidebar{
+.sidebar{
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  flex:1;
 }
 
-#sidebar img{
+.sidebar img{
   height:170px;
   width:240px;
 }
 
-#sidebar:hover{
+.sidebar:hover{
   scale: 0.9;
   transition:1.0s;
+}
+
+.sidebar{
+  flex-direction:row;
+  justify-content:center;
+}
+
+.attraction{
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:40px;
 }
 
 body ul{
@@ -237,11 +247,17 @@ body ul{
   align-items:center;
 }
 
+ul{
+  font-size:21px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 ul:hover{
   color:rgb(19, 79, 161);
-  font-size:16px;
+  font-size:25px;
   font-family:Cambria;
 }
+
 
 #food img{
   height:250px;
@@ -258,17 +274,18 @@ ul:hover{
 }
 
 #food p{
-  font-size:17px;
+  font-size:18px;
+  font-family:monospace;
   text-align:center;
   align-items:center;
   text-shadow: 2px 2px 4px #d4b31e;
 }
 
 #food p:hover{
-  font-size:17px;
+  font-size:20px;
   text-align:center;
   align-items:center;
-  text-shadow: 2px 2px 4px #4775da;
+  text-shadow: 2px 2px 4px #9bb4eb;
 }
 
 #footer p{
@@ -282,7 +299,7 @@ ul:hover{
 #footer2 p{
    flex:1;
    text-align:center;
-   color:rgb(152, 246, 207);
+   color:rgb(173, 248, 217);
    background-color:rgb(20, 144, 182);
    height:37px
 }
@@ -290,7 +307,7 @@ ul:hover{
 #footer3 p{
    flex:1;
    text-align:center;
-   color:rgb(235, 168, 182);
+   color:rgb(245, 148, 169);
    background-color:rgb(41, 69, 78);
    height:37px
 }
