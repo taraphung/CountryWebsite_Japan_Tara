@@ -216,13 +216,15 @@ h1{
 }
 
 #sidebar{
-   flex-direction:column;
-   flex:1;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  flex:1;
 }
 
 #sidebar img{
-  height:110px;
-  width:170px;
+  height:170px;
+  width:240px;
 }
 
 #sidebar:hover{
@@ -230,15 +232,14 @@ h1{
   transition:1.0s;
 }
 
-#main2, #sample, #sample2{
-   flex:3;
-   font-size:17px;
-   font-family:"Franklin Gothic Medium";
+body ul{
+  text-align:center;
+  align-items:center;
 }
 
 ul:hover{
   color:rgb(19, 79, 161);
-  font-size:15px;
+  font-size:16px;
   font-family:Cambria;
 }
 
