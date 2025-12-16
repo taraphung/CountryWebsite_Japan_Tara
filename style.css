@@ -221,8 +221,8 @@ h1{
 }
 
 #sidebar img{
-  height:140px;
-  width:200px;
+  height:100px;
+  width:150px;
 }
 
 #sidebar:hover{
@@ -232,13 +232,13 @@ h1{
 
 #main2, #sample, #sample2{
    flex:3;
-   font-size:21px;
+   font-size:16px;
    font-family:"Franklin Gothic Medium";
 }
 
 ul:hover{
   color:rgb(19, 79, 161);
-  font-size:23px;
+  font-size:14px;
   font-family:Cambria;
 }
 
